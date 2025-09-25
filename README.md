@@ -1,9 +1,3 @@
-# ASCEND-
-
-ERAU ASCEND! Files 
-
-Editing:
-
-Currently working:
-
-Archive:
+# ASCEND 
+# THIS REPO IS DEPRECATED PLESE ONLY PUSH TO:
+github.com/ASCENDERAU/ASCEND
