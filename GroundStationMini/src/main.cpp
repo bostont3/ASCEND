@@ -32,31 +32,34 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   moveStepper(CLOCKWISE);
-  Serial.println("Running the loop!");
 }
 
 void moveStepper(const int direction){
   int delayTime = 10;
   if(direction == CLOCKWISE){
     //Step 1
+    Serial.println("Step 1!");
     digitalWrite(BLACK, HIGH);
     digitalWrite(RED, HIGH);
     digitalWrite(GREEN, LOW);
     digitalWrite(BLUE, LOW);
     delay(delayTime);
     //Step 2
+    Serial.println("Step 2!");
     digitalWrite(BLACK, LOW);
     digitalWrite(RED, HIGH);
     digitalWrite(GREEN, HIGH);
     digitalWrite(BLUE, LOW);
     delay(delayTime);
     //Step 3
+    Serial.println("Step 3!");
     digitalWrite(BLACK, LOW);
     digitalWrite(RED, LOW);
     digitalWrite(GREEN, HIGH);
     digitalWrite(BLUE, HIGH);
     delay(delayTime);
     //Step 4
+    Serial.println("Step 4!");
     digitalWrite(BLACK, HIGH);
     digitalWrite(RED, LOW);
     digitalWrite(GREEN, LOW);
